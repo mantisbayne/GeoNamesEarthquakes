@@ -1,4 +1,4 @@
-package com.mobile.meredithbayne.geonamesearthquakes;
+package com.mobile.meredithbayne.geonamesearthquakes.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.mobile.meredithbayne.geonamesearthquakes.R;
 import com.mobile.meredithbayne.geonamesearthquakes.util.NetworkUtil;
 
 public class EarthquakesActivity extends AppCompatActivity {
@@ -25,7 +26,7 @@ public class EarthquakesActivity extends AppCompatActivity {
             networkErrorImage.setVisibility(View.VISIBLE);
         }
 
-        Fragment fragment = new EarthquakeListFragment();
+        Fragment fragment = new EarthquakeFragment();
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.earthquakes_list, fragment)

@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EarthquakesActivity">
+    tools:context=".ui.EarthquakesActivity">
 
     <ImageView
         android:id="@+id/cloud_off_icon"
