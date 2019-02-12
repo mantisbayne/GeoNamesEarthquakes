@@ -36,8 +36,12 @@ public class Earthquake {
         return depth;
     }
 
-    public String getMagnitude() {
+    public String getMagnitudeAsText() {
         return String.valueOf(magnitude);
+    }
+
+    public Double getMagnitude() {
+        return  magnitude;
     }
 
     public String getDatetime() {

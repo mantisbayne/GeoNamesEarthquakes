@@ -7,4 +7,6 @@
     <string name="earthquake_waves">earthquake waves</string>
     // Fragment
     <string name="year">Year</string>
+    <string name="deep">Deep Quake</string>
+    <string name="shallow">Shallow Quake</string>
 </resources>

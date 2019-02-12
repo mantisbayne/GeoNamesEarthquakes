@@ -32,4 +32,6 @@ public class EarthquakesActivity extends AppCompatActivity {
                 .replace(R.id.earthquakes_list, fragment)
                 .commit();
     }
+
+
 }

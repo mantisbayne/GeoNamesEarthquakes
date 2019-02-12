@@ -18,10 +18,14 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 import timber.log.Timber;
 
-public class EarthquakeViewModel extends ViewModel {
+public class EarthquakePresenter extends ViewModel {
     private Disposable disposable;
     private MutableLiveData<List<Earthquake>> earthquakes;
     private EarthquakesInterface mainInterface;
+
+    public EarthquakePresenter(EarthquakesInterface mainInterface) {
+        this.mainInterface = mainInterface;
+    }
 
     public LiveData<List<Earthquake>> getEarthquakes() {
         if (earthquakes == null) {
