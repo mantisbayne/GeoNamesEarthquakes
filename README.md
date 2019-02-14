@@ -1,2 +1,2 @@
-# GeoNamesEarthquakes
-Let's try in Java first
+# GeoNamesEarthquakes - MVVM version
+Let's try MVVM
