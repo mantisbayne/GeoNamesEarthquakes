@@ -71,8 +71,8 @@ public class Earthquake {
         this.eqid = eqid;
     }
 
-    public Double getMagnitude() {
-        return magnitude;
+    public String getMagnitude() {
+        return String.valueOf(magnitude);
     }
 
     public void setMagnitude(Double magnitude) {
