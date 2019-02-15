@@ -1,2 +1,2 @@
-# GeoNamesEarthquakes - MVVM version
-Let's try MVVM
+# GeoNamesEarthquakes - NVP version
+Let's try MVP
